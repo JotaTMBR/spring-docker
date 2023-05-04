@@ -18,7 +18,7 @@ public class UsuarioController {
 	private UsuarioRepository ur;
 	
 	@GetMapping("/usuario/listar")
-	public List<Usuario> listar(){
+	public List<Usuario> listar() {
 		return ur.findAll();
 	}
 	
